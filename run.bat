@@ -1,5 +1,5 @@
 @echo off
-title EXTENDO SELFBOT By 7teen
+title EXTENDO SELFBOT v2 By 7teen
 :top
 cls
 node .
