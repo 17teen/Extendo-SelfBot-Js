@@ -1,3 +1,8 @@
+Things you must have downloaded before starting
+
+Code Editor: VSC(recommended), Pycharm, Sublime, Atom etc
+===============================================================
+
 Open VSC or Any code editor and open this folder.
 
 After that, run the launch.bat file to install everything you need.
