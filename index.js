@@ -1,5 +1,5 @@
 // https://github.com/17teen
-// Discord: 7teen#1464
+// Discord: thug angel#3868
 
 const { Client, RichEmbed, MessageAttachment, Attachment } = require('discord.js');
 const Discord = require('discord.js');
@@ -16,7 +16,7 @@ const myID = settings.ID;
 // token
 const token = settings.token;
 // founder
-const founder = "7teen#1464"; // if you change this you're a skid ;)
+const founder = "thug angel#3868"; // if you change this you're a skid ;)
 
 const title = String.raw`
                      ________  __    __  ________  ________  __    __  _______    ______        
@@ -37,7 +37,7 @@ const backslash = String.raw` \ `;
 console.log(red(title))
 
 console.log(``);
-console.log(green(`                                          Made by 7teen#1646`));
+console.log(green(`                                          Made by thug angel#3868`));
 console.log(``);
 console.log(``);
 console.log(yellow('               + ================================================================================== +'));
@@ -184,7 +184,7 @@ bot.on('message', message => {
     if (message.content.startsWith(prefix + 'about')) {
         const helpembed = new RichEmbed()
             .setTitle(`𝙀𝙓𝙏𝙀𝙉𝘿𝙊 𝙎𝙀𝙇𝙁𝘽𝙊𝙏: 𝘼𝘽𝙊𝙐𝙏`)
-            .setDescription(`**Founder:** \n \`7teen#1646\` \n \n **Self-Bot Description:** \n \`Creation Date:\` 25/10/2020 \n \`Language:\` JavaScript \n \`Operating System:\` Windows , macOS`)
+            .setDescription(`**Founder:** \n \`thug angel#3868\` \n \n **Self-Bot Description:** \n \`Creation Date:\` 25/10/2020 \n \`Language:\` JavaScript \n \`Operating System:\` Windows , macOS`)
             .setColor("RANDOM")
             .setImage("https://media4.giphy.com/media/PVpJ8v1meXfQHwXFWA/giphy.gif")
             .setFooter(`© Extendo Selfbot | prefix: ${prefix} `);
@@ -733,7 +733,7 @@ bot.on('message', message => {
         const invitebackground = new RichEmbed()
         invitebackground.setTitle(`${message.guild.name}'s Invite Background`)
         invitebackground.setImage(`${message.guild.splashURL}`)
-        invitebackground.setFooter(`Invite Background | 7teen#1464`)
+        invitebackground.setFooter(`Invite Background | thug angel#3868`)
         invitebackground.setColor(`RANDOM`);
         message.channel.send(invitebackground);
         message.delete();
